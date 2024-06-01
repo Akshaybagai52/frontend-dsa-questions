@@ -1,0 +1,13 @@
+## Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+### Using inbuilt js methods
+
+var rotate = function(nums, k) {
+    let size = nums.length;
+    if(k > size) {
+        k = k % size;
+    }
+    const rotated = nums.splice(size-k, size);
+    nums.unshift(...rotated)
+    return nums
+};
