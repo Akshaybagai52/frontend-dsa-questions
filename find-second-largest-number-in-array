@@ -1,0 +1,15 @@
+## Find second largest Number in an Array
+
+### With in-built JS functions / Brute Force Methods
+
+function findSecondLargest(arr) {
+    let uniqueArr = Array.from(new Set(arr)) // new Set for making array of unique elements and Array.from used to make array because new Set will return objects with unique elements
+    console.log(uniqueArr)
+    const descendingArr = uniqueArr.sort((a, b) => b - a)
+    if(descendingArr.length >= 2) {
+        return descendingArr[1]
+    } else {
+        return -1
+    }
+}
+findSecondLargest([1,4,6,6,4,8,9])
