@@ -1,0 +1,20 @@
+## 78. Subsets
+
+
+var subsets = function(nums) {
+    let result = [];
+    let temp = [];
+
+    function recursiveSet(nums, i) {
+        if(i===nums.length) {
+            return result.push([...temp])
+        }
+        temp.push(nums[i])
+        recursiveSet(nums, i+1)
+        temp.pop();
+        recursiveSet(nums, i+1)
+    }
+    recursiveSet(nums, 0)
+    return result;
+
+};
