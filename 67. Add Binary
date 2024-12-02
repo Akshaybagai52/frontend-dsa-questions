@@ -1,0 +1,19 @@
+var addBinary = function (a, b) {
+    let res = "";
+    let carry = 0;
+    let idxA = a.length - 1;
+    let idxB = b.length - 1;
+
+    while(idxA >= 0 || idxB >= 0 || carry === 1) {
+        let sum = carry;
+        if(idxA >= 0) sum += Number(a[idxA]);
+        if(idxB >= 0) sum += Number(b[idxB]);
+
+        res = (sum % 2) + res;
+        carry = Math.floor(sum / 2);
+
+        idxA--;
+        idxB--;
+    }
+    return res;
+};
