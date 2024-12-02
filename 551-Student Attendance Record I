@@ -1,0 +1,15 @@
+My solution
+
+var checkRecord = function(s) {
+    let conA = 0;
+    let conL = 0;
+    for(let i = 0; i < s.length; i++) {
+        if(conL === 3) return false
+        if(s[i] === "A") conA++;
+        if(s[i] === "L") conL++;
+        if(conL >= 3) break;
+        if(s[i] !== "L") conL=0;
+    }
+    if(conA < 2 && conL < 3) return true;
+    else return false;
+};
