@@ -1,0 +1,14 @@
+var convertToTitle = function (columnNumber) {
+    let string = "";
+    while (columnNumber > 0) {
+        let remainder = columnNumber % 26;
+        if (remainder !== 0) {
+            string = String.fromCharCode(64 + remainder) + string;
+        } else {
+            string = String.fromCharCode(64 + 26) + string;
+            columnNumber--;
+        }
+        columnNumber = Math.floor(columnNumber / 26);
+    }
+    return string
+};
