@@ -13,3 +13,18 @@ var checkRecord = function(s) {
     if(conA < 2 && conL < 3) return true;
     else return false;
 };
+
+Optimized 
+
+var checkRecord = function(s) {
+    let conA = 0;
+    let conL = 0;
+    for(let i = 0; i < s.length; i++) {
+        if(s[i] === "A") conA++;
+        if(s[i] === "L") conL++;
+        else conL = 0
+        if(conL >= 3) return false;
+        if(conA >= 2) return false
+    }
+    return true;
+};
