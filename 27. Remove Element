@@ -1,0 +1,11 @@
+
+var removeElement = function (nums, val) {
+    let index1 = 0;
+    for (let i = 0; i < nums.length; i++) {
+        if (nums[i] !== val) {
+            nums[index1] = nums[i]
+            index1++;
+        }
+    }
+    return index1;
+};
