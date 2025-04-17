@@ -1,15 +1,11 @@
-In the React Admin project, began by creating a comprehensive component sheet to identify reusable components required in the RCL (Reusable Component Library). Collaborated with the team to develop these components and then proceeded with module-wise implementation of the application.
+Communication
 
-Maintained clear communication with the Team Lead, providing regular updates and engaging in strategy discussions to effectively achieve the required functionality. Actively participated in all development activities including code reviews, issue discussions, and project timeline planning.
+Maintained effective and clear communication with peers by proactively guiding them on how to integrate and use the common components developed in the Reusable Component Library (RCL).
 
-Applied the same structured and collaborative approach in other projects such as Enrollment Consumer and Eligibility Upload Documents, ensuring consistent and timely delivery.
+Provided support both over calls and via detailed written instructions—even in situations where I was multitasking or away from my primary work setup—to ensure smooth understanding and usage of the components. Ensured that any confusion regarding component usage or requirements was promptly addressed, enabling team members to stay unblocked and aligned.
 
-Designed and developed several complex and reusable components in the RCL, such as CustomAdminHeader, CustomDragAndDropContext, CustomBackdropCard, and CardNavigation. These components have been integrated across multiple applications without requiring further modifications, showcasing robust design and flexibility.
+Business Scope
 
-Also built internal form components using react-hook-form, including DateInput, TextInput, ToggleButton, and Dropdown. These components have been successfully adopted in various projects like React Admin, Internal Admin, Admin Verifications, and ROP, reflecting strong reusability and code quality.
+Demonstrated strong ownership by identifying potential risks and technical issues during the development of common components and while working on library replacements.
 
-Individual Contribution
-
-Approached the React Admin project methodically—starting with thorough KT (Knowledge Transfer) sessions, asking relevant questions, and breaking down tasks into manageable phases. This included creating shared components, migrating APIs, developing UI screens, integrating APIs, and conducting thorough development testing.
-
-Followed a disciplined QA process: maintained a bug tracking sheet during development testing, addressed issues proactively, and ensured a clean handover by performing a final round of testing post-merge. This helped minimize defects during OA testing and contributed to a smoother release cycle.
+Proactively communicated these risks to the Team Lead well in advance, allowing timely intervention and mitigation planning. This helped avoid last-minute delivery challenges and ensured smooth progress across multiple project timelines.
