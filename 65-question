@@ -1,11 +1,23 @@
-Communication
-
-Maintained effective and clear communication with peers by proactively guiding them on how to integrate and use the common components developed in the Reusable Component Library (RCL).
-
-Provided support both over calls and via detailed written instructions—even in situations where I was multitasking or away from my primary work setup—to ensure smooth understanding and usage of the components. Ensured that any confusion regarding component usage or requirements was promptly addressed, enabling team members to stay unblocked and aligned.
-
 Business Scope
 
-Demonstrated strong ownership by identifying potential risks and technical issues during the development of common components and while working on library replacements.
+During the code migration phase, played a key role in aligning the design approach by transitioning from standard HTML elements to Material UI (MUI) components such as DateInput and SelectDropdown. Noted discrepancies in default styling across MUI elements, and collaborated with the Team Lead to make a strategic decision to consistently use MUI across all repositories.
 
-Proactively communicated these risks to the Team Lead well in advance, allowing timely intervention and mitigation planning. This helped avoid last-minute delivery challenges and ensured smooth progress across multiple project timelines.
+This decision ensured a unified design language and minimized inconsistencies across applications, thereby supporting maintainability and scalability across projects.
+
+Communication
+
+Effectively communicated technical approaches and best practices with the team, ensuring clarity on implementation strategies that are both scalable and maintainable.
+
+Provided guidance on writing test cases by suggesting efficient methods such as mocking react-hook-form and testing at the parent level instead of the component level. This reduced redundancy and improved overall test coverage efficiency.
+
+Practice Development
+
+Proactively contributed to practice development by building working prototypes to evaluate alternatives for react-draggable and react-recaptcha within the Enrollment Consumer and Consumer projects.
+
+Performed in-depth research to identify suitable, long-term maintainable libraries that aligned with project requirements. Shared the prototypes with the team for review and feedback, enabling informed decisions and supporting future-proof development strategies.
+
+Effective Communication
+
+Maintained consistent communication with Deloitte stakeholders including RA, Shilpa, Sneha, and Sravani to resolve open questions and clarify requirements.
+
+Took initiative to coordinate with B&D teams via email for pipeline fixes and reached out to relevant stakeholders to resolve dependencies beyond the team’s control—ensuring timely progress and unblocking critical issues.
