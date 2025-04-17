@@ -1,13 +1,15 @@
-Took complete ownership of the React Enrollment Consumer project, beginning with a thorough understanding of the sequential requirements and implementing them systematically. Delivered all assigned components on time, meeting both functional and technical specifications.
+In the React Admin project, began by creating a comprehensive component sheet to identify reusable components required in the RCL (Reusable Component Library). Collaborated with the team to develop these components and then proceeded with module-wise implementation of the application.
 
-Resolved multiple OA bugs, including functional issues, UI discrepancies, and accessibility concerns (WAVE and JAWS). Applied learnings from this experience to the subsequent React Admin project, which was completed ahead of schedule with no backlog.
+Maintained clear communication with the Team Lead, providing regular updates and engaging in strategy discussions to effectively achieve the required functionality. Actively participated in all development activities including code reviews, issue discussions, and project timeline planning.
 
+Applied the same structured and collaborative approach in other projects such as Enrollment Consumer and Eligibility Upload Documents, ensuring consistent and timely delivery.
 
+Designed and developed several complex and reusable components in the RCL, such as CustomAdminHeader, CustomDragAndDropContext, CustomBackdropCard, and CardNavigation. These components have been integrated across multiple applications without requiring further modifications, showcasing robust design and flexibility.
 
+Also built internal form components using react-hook-form, including DateInput, TextInput, ToggleButton, and Dropdown. These components have been successfully adopted in various projects like React Admin, Internal Admin, Admin Verifications, and ROP, reflecting strong reusability and code quality.
 
+Individual Contribution
 
-Diligently followed all project processes, including timely timesheet submissions, active participation in daily standups, and adherence to sprint planning and review protocols.
+Approached the React Admin project methodically—starting with thorough KT (Knowledge Transfer) sessions, asking relevant questions, and breaking down tasks into manageable phases. This included creating shared components, migrating APIs, developing UI screens, integrating APIs, and conducting thorough development testing.
 
-Maintained consistent availability during working hours and extended timelines when required to ensure project milestones were met without compromising quality.
-
-Collaborated effectively with cross-functional teams, maintained clear documentation of progress, and proactively communicated any blockers to ensure smooth execution of deliverables.
+Followed a disciplined QA process: maintained a bug tracking sheet during development testing, addressed issues proactively, and ensured a clean handover by performing a final round of testing post-merge. This helped minimize defects during OA testing and contributed to a smoother release cycle.
